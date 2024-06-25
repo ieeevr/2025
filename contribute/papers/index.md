@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
-title: "Past Conferences"
-subtitle: "IEEE VR 2024"
+title: "Call for Papers"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
