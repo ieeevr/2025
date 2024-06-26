@@ -47,7 +47,7 @@ title_separator: "|"
                 The Chair, Ed Swan: <span id="swan"></span>
             </li>
         </ul>
-        All reports will only be sent to the authorized people and will be treated confidentially.
+        <p>All reports will only be sent to the authorized people and will be treated confidentially.</p>
     </p>
 
     <h2>IEEE Computer Society Open Conference Statement</h2>

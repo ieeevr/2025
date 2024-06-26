@@ -4,9 +4,30 @@ title: "Call for Papers"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = "";
+		var domain = "ieeevr.org"; 
 
+		email = "program2025"; 		
+		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "steering"; 		
+		steering.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "eventconduct"; 		
+		$(".eventconduct").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "eventconduct"; 		
+		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "swan"; 
+		var domain = "acm.org"; 		
+		swan.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+	});
+</script>
 <div>
-    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span class="programSm"></span></div></h1>
+    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span id="program"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
@@ -26,7 +47,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries:</b> <span class="program"></span>
+        <b>Inquiries:</b> <span id="program"></span>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
@@ -169,7 +190,7 @@ title_separator: "|"
                 All submissions must report participant demographics (gender, age, etc.).                        
             </li>
         </ul>
-		Notes about recruiting representative populations:
+		<p>Notes about recruiting representative populations:</p>
 		<ul>
             <li>
 				Recruiting more diverse samples does not imply that the research must treat these data as independent variables and analyze differences in independent variables between demographic groups.
@@ -181,7 +202,7 @@ title_separator: "|"
                 Many ethics review boards and funding sources already require participant diversity for inclusive and unbiased research.                        
             </li>
         </ul>
-		The VR 2025 program committee and external reviewers will be strongly encouraged to consider participant diversity in relation to the generality of the claims made by a submission as a first-order reviewing concern. Submissions that make general claims yet rely on a severely imbalanced participant groups may be negatively impacted by the reviewing process.
+		<p>The VR 2025 program committee and external reviewers will be strongly encouraged to consider participant diversity in relation to the generality of the claims made by a submission as a first-order reviewing concern. Submissions that make general claims yet rely on a severely imbalanced participant groups may be negatively impacted by the reviewing process.</p>
     </p>
     <p>
         <b>Review Duties for Authors.</b><br />
@@ -234,7 +255,7 @@ title_separator: "|"
     </p>
    
 
-    <h2 id="contacts">Contacts <div class="floatRight"><span class="programSm"></span></div></h2>						
+    <h2 id="contacts">Contacts <div class="floatRight"><span id="program"></span></div></h2>						
     <p>
         <b>Technical Papers Chairs:</b>
         						
